@@ -480,5 +480,11 @@ map.removeLayer(EMBUNG)
 //map.removeLayer(bundaranGKU)
 //map.removeLayer(polygon)
 L.control.layers(baseMaps,overlayMaps, {collapsed : false}).addTo(map);
+L.geoJSON(batasgeojson).addTo(map);
+L.geoJSON(titikgeojson).addTo(map);
+L.geoJSON(jalangeojson).addTo(map);
+L.geoJSON(bangunangeojson).addTo(map);
+L.geoJSON(embunggeojson).addTo(map);
+
 </script>
 </script>
